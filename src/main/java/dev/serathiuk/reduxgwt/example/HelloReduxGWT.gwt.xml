@@ -1,0 +1,10 @@
+<module rename-to='helloreduxgwt'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <inherits name="elemental2.core.Core"/>
+  <inherits name="elemental2.dom.Dom"/>
+  <entry-point class='dev.serathiuk.reduxgwt.example.client.HelloReduxGWT'/>
+  <source path='client'/>
+  <source path='shared'/>
+  <add-linker name="xsiframe"/>
+</module>
